@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T08:30:34.657Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:102.0)" etag="B6uxdB-5ByY4OjUP7Aoj" version="24.4.10" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-30T08:31:12.086Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:102.0)" etag="ulSK8M6hrYQNz0e5EbB7" version="24.4.10" type="github" pages="3">
   <diagram id="GSO0hhB5HU-CJFFYYbM_" name="电源政策架构">
     <mxGraphModel dx="911" dy="594" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,6 +199,9 @@
               <mxPoint x="180" y="230" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="T4Njzg4Dmx6SJmbIld7S-1" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="420" y="40" width="100" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

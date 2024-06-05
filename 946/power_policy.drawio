@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T07:55:30.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="JTLNMt3NanuIhgN2-MEb" version="24.4.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-05T07:55:46.134Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="x1D2u4iiQn_9MDcFn-fh" version="24.4.13" type="github" pages="4">
   <diagram name="block_电源整体" id="scZbwYnjEaHizTnODgxV">
     <mxGraphModel dx="529" dy="263" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
             <mxPoint x="465" y="225" as="targetPoint" />
             <Array as="points">
               <mxPoint x="586" y="355" />
-              <mxPoint x="436" y="355" />
+              <mxPoint x="440" y="355" />
             </Array>
           </mxGeometry>
         </mxCell>

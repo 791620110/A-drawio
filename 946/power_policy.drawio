@@ -1,4 +1,138 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T03:23:39.737Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:102.0)" etag="DawU-Yc3TfGXtJ_BOUS8" version="24.4.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-05T05:26:55.342Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:102.0)" etag="LVgRmB8dIWbJKySk8ksf" version="24.4.13" type="github" pages="5">
+  <diagram name="block_电源政策 的副本" id="7wkgjOoaDmfZwowPfXsb">
+    <mxGraphModel dx="911" dy="1763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-0" />
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-1" parent="If_Td-LYtIsLhNp5J1xp-0" />
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-2" value="" style="html=1;whiteSpace=wrap;dashed=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-1">
+          <mxGeometry x="198" y="221" width="450" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-3" value="CarPower&lt;br&gt;ManagenebtService&lt;br&gt;(CPMS)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-1">
+          <mxGeometry x="278" y="331" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-4" value="VHAL" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-1">
+          <mxGeometry x="278" y="502" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-5" value="Car power&lt;br&gt;policy daemon" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-1">
+          <mxGeometry x="478" y="502" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-6" value="Native process" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-1">
+          <mxGeometry x="58" y="502" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-7" value="GeelyPower&lt;br&gt;Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-1">
+          <mxGeometry x="278" y="121" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-8" value="CarBluetooth&lt;br&gt;Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-1">
+          <mxGeometry x="478" y="249" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-9" value="CarAudio&lt;br&gt;PowerListener" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-1">
+          <mxGeometry x="478" y="331" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-10" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#b1ddf0;strokeColor=#10739e;" edge="1" parent="If_Td-LYtIsLhNp5J1xp-1" source="If_Td-LYtIsLhNp5J1xp-3" target="If_Td-LYtIsLhNp5J1xp-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="268" y="301" as="sourcePoint" />
+            <mxPoint x="428" y="301" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-11" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.129;exitY=0.511;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#b1ddf0;strokeColor=#10739e;" edge="1" parent="If_Td-LYtIsLhNp5J1xp-1" source="If_Td-LYtIsLhNp5J1xp-5" target="If_Td-LYtIsLhNp5J1xp-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="268" y="401" as="sourcePoint" />
+            <mxPoint x="428" y="401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-12" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.567;exitY=-0.011;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#ffcc99;strokeColor=#FBBD04;" edge="1" parent="If_Td-LYtIsLhNp5J1xp-1" source="If_Td-LYtIsLhNp5J1xp-5" target="If_Td-LYtIsLhNp5J1xp-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="258" y="301" as="sourcePoint" />
+            <mxPoint x="418" y="301" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="557" y="431" />
+              <mxPoint x="388" y="431" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-13" value="CarService" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-1">
+          <mxGeometry x="198" y="223" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-14" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=-0.004;entryY=0.515;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="If_Td-LYtIsLhNp5J1xp-1" source="If_Td-LYtIsLhNp5J1xp-6" target="If_Td-LYtIsLhNp5J1xp-4">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="230" y="559" as="sourcePoint" />
+            <mxPoint x="390" y="559" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-15" value="" style="endArrow=block;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;entryX=0.016;entryY=0.511;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.032;exitY=0.498;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="If_Td-LYtIsLhNp5J1xp-1" source="If_Td-LYtIsLhNp5J1xp-9">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="578" y="360.5799999999999" as="sourcePoint" />
+            <mxPoint x="418" y="360.5799999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-16" value="" style="endArrow=block;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="If_Td-LYtIsLhNp5J1xp-1" target="If_Td-LYtIsLhNp5J1xp-3">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="478" y="279.88" as="sourcePoint" />
+            <mxPoint x="346" y="331" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="348" y="279" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-17" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="If_Td-LYtIsLhNp5J1xp-1" source="If_Td-LYtIsLhNp5J1xp-7" target="If_Td-LYtIsLhNp5J1xp-3">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="276" y="260" as="sourcePoint" />
+            <mxPoint x="436" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-18" value="Synchronization" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#808080;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-1">
+          <mxGeometry x="428" y="433" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;dashed=1;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-1">
+          <mxGeometry x="16" y="453" width="655" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-20" value="framework layer" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#808080;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-1">
+          <mxGeometry x="38" y="121" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-21" value="native layer" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#808080;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-1">
+          <mxGeometry x="38" y="459" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-22" value="" style="group" vertex="1" connectable="0" parent="If_Td-LYtIsLhNp5J1xp-1">
+          <mxGeometry x="726" y="221" width="89" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-23" value="listen power policy" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="If_Td-LYtIsLhNp5J1xp-22">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint x="89" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-24" value="2-way invacation" style="endArrow=none;endFill=0;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fillColor=#b1ddf0;strokeColor=#10739e;" edge="1" parent="If_Td-LYtIsLhNp5J1xp-22">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint y="36" as="sourcePoint" />
+            <mxPoint x="89" y="36" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-25" value="Sync between CPMS and daemon" style="endArrow=none;endFill=0;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" edge="1" parent="If_Td-LYtIsLhNp5J1xp-22">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint y="73" as="sourcePoint" />
+            <mxPoint x="89" y="73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-26" value="" style="html=1;whiteSpace=wrap;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-22">
+          <mxGeometry x="6" y="106" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-27" value="custom apps" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#808080;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-22">
+          <mxGeometry y="122" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-28" value="aosp apps" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#808080;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-22">
+          <mxGeometry y="170" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="If_Td-LYtIsLhNp5J1xp-29" value="" style="html=1;whiteSpace=wrap;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-22">
+          <mxGeometry x="6" y="155" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="ohdKTfmYOnolKwZoGy2n-1" value="GeelyPower&lt;br&gt;Manager" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="If_Td-LYtIsLhNp5J1xp-1">
+          <mxGeometry x="278" y="-2" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="GSO0hhB5HU-CJFFYYbM_" name="block_电源政策">
     <mxGraphModel dx="911" dy="594" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>

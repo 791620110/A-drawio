@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T02:34:25.905Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:102.0)" etag="zcOCfdsf3mfRxGw6ftFn" version="24.4.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-05T02:39:02.187Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:102.0)" etag="n6oShhK70L9Wzo3mkFu2" version="24.4.13" type="github" pages="4">
   <diagram id="GSO0hhB5HU-CJFFYYbM_" name="电源政策架构">
     <mxGraphModel dx="911" dy="594" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -143,7 +143,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="EA8ShP7jqK84DFbrow7X" name="coldStart_PowerState">
+  <diagram id="EA8ShP7jqK84DFbrow7X" name="coldStart_seq_模块控制">
     <mxGraphModel dx="1738" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -156,7 +156,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="h7uv81xIhcB42S7jtqTZ" name="coldStart_PowerPolicy">
+  <diagram id="h7uv81xIhcB42S7jtqTZ" name="coldStart_seq_电源策略">
     <mxGraphModel dx="911" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />

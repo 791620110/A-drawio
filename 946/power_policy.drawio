@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T07:50:07.417Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="ci4dWiu9vlgy8Gz00shH" version="24.4.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-05T07:53:57.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="HS65jgKstwHJtZvQN_kM" version="24.4.13" type="github" pages="4">
   <diagram name="block_电源整体" id="scZbwYnjEaHizTnODgxV">
-    <mxGraphModel dx="794" dy="394" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="548" dy="272" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dfYiGVlHExvWK6K35Ht9-0" />
         <mxCell id="dfYiGVlHExvWK6K35Ht9-1" parent="dfYiGVlHExvWK6K35Ht9-0" />
@@ -22,10 +22,14 @@
         <mxCell id="dfYiGVlHExvWK6K35Ht9-8" value="CarProperty&lt;br&gt;Manager" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
           <mxGeometry x="518" y="61" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dfYiGVlHExvWK6K35Ht9-10" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#b1ddf0;strokeColor=#330000;" edge="1" parent="dfYiGVlHExvWK6K35Ht9-1" source="dfYiGVlHExvWK6K35Ht9-3" target="dfYiGVlHExvWK6K35Ht9-4">
+        <mxCell id="dfYiGVlHExvWK6K35Ht9-10" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#b1ddf0;strokeColor=#330000;" edge="1" parent="dfYiGVlHExvWK6K35Ht9-1" source="dfYiGVlHExvWK6K35Ht9-2" target="dfYiGVlHExvWK6K35Ht9-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="315" y="225" as="sourcePoint" />
             <mxPoint x="475" y="225" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="395" y="355" />
+              <mxPoint x="395" y="355" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dfYiGVlHExvWK6K35Ht9-11" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.129;exitY=0.511;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#b1ddf0;strokeColor=#330000;" edge="1" parent="dfYiGVlHExvWK6K35Ht9-1" source="dfYiGVlHExvWK6K35Ht9-5" target="dfYiGVlHExvWK6K35Ht9-4">
@@ -93,7 +97,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="31jC7kHKTw90zeckx1OF-4" value="User layer" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#808080;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
-          <mxGeometry x="63" y="2" width="80" height="26" as="geometry" />
+          <mxGeometry x="63" y="10" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3WtkxjD41EtSvu9YMNgy-0" value="Kernel layer" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#808080;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
           <mxGeometry x="63" y="514" width="80" height="26" as="geometry" />
@@ -152,7 +156,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3WtkxjD41EtSvu9YMNgy-25" value="SystemSuspend" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#808080;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
-          <mxGeometry x="209" y="356" width="80" height="26" as="geometry" />
+          <mxGeometry x="211" y="356" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3WtkxjD41EtSvu9YMNgy-26" value="&lt;font&gt;virtio IO&lt;/font&gt;" style="text;align=right;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#808080;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
           <mxGeometry x="270" y="595" width="80" height="26" as="geometry" />

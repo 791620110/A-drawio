@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T07:05:17.579Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="T6mJzw-Q3hXK6PWTHv17" version="24.4.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-06-05T07:30:31.038Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="qTmNUR0WtIy6TFe194g1" version="24.4.13" type="github" pages="5">
   <diagram name="block_电源整体" id="scZbwYnjEaHizTnODgxV">
-    <mxGraphModel dx="934" dy="464" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="548" dy="272" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dfYiGVlHExvWK6K35Ht9-0" />
         <mxCell id="dfYiGVlHExvWK6K35Ht9-1" parent="dfYiGVlHExvWK6K35Ht9-0" />
@@ -116,7 +116,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3WtkxjD41EtSvu9YMNgy-11" value="QNX" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
-          <mxGeometry x="176" y="738" width="80" height="80" as="geometry" />
+          <mxGeometry x="268" y="740" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3WtkxjD41EtSvu9YMNgy-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dfYiGVlHExvWK6K35Ht9-1" source="3WtkxjD41EtSvu9YMNgy-12" target="dfYiGVlHExvWK6K35Ht9-4">
           <mxGeometry relative="1" as="geometry">
@@ -133,10 +133,24 @@
           <mxGeometry x="16" y="709" width="655" height="8" as="geometry" />
         </mxCell>
         <mxCell id="3WtkxjD41EtSvu9YMNgy-16" value="virtio IO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
-          <mxGeometry x="215" y="669" width="60" height="30" as="geometry" />
+          <mxGeometry x="248" y="669" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3WtkxjD41EtSvu9YMNgy-20" value="IPCP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
           <mxGeometry x="495" y="669" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3WtkxjD41EtSvu9YMNgy-22" value="sys/power/state" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
+          <mxGeometry x="94" y="609" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3WtkxjD41EtSvu9YMNgy-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dfYiGVlHExvWK6K35Ht9-1" source="dfYiGVlHExvWK6K35Ht9-3" target="3WtkxjD41EtSvu9YMNgy-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-63" y="486" as="sourcePoint" />
+            <mxPoint x="-13" y="436" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="221" y="363" />
+              <mxPoint x="221" y="527" />
+              <mxPoint x="154" y="527" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

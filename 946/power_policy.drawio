@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T09:55:32.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="S0-IM47p8ULrtK-WHxtu" version="24.4.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-05T13:13:28.701Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="EDCKuBjUXg30cJ7U_I7Z" version="24.4.13" type="github" pages="4">
   <diagram name="block_电源整体" id="scZbwYnjEaHizTnODgxV">
     <mxGraphModel dx="633" dy="328" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -200,7 +200,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="T7ZNSCO9evXRUqMuf9Vd" name="power_policy.xml">
-    <mxGraphModel dx="2788" dy="1732" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3639" dy="2154" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -239,7 +239,7 @@
         <mxCell id="uGrwg-TMTBSAi2oEGAcf-8" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#0000FF;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="109" y="710" width="493" height="177" as="geometry" />
         </mxCell>
-        <mxCell id="uGrwg-TMTBSAi2oEGAcf-9" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeColor=#0000FF;entryX=0.003;entryY=0.609;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;" edge="1" parent="1" source="uGrwg-TMTBSAi2oEGAcf-8" target="Wn0DzkVXAHdK4aTszHG_-4">
+        <mxCell id="uGrwg-TMTBSAi2oEGAcf-9" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeColor=#0000FF;entryX=0.003;entryY=0.609;entryDx=0;entryDy=0;entryPerimeter=0;shape=arrow;" edge="1" parent="1" source="uGrwg-TMTBSAi2oEGAcf-8" target="Wn0DzkVXAHdK4aTszHG_-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="760" y="620" as="sourcePoint" />
             <mxPoint x="810" y="570" as="targetPoint" />
@@ -249,7 +249,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uGrwg-TMTBSAi2oEGAcf-10" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeColor=#0000FF;shape=flexArrow;" edge="1" parent="1" target="Wn0DzkVXAHdK4aTszHG_-3">
+        <mxCell id="uGrwg-TMTBSAi2oEGAcf-10" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeColor=#0000FF;shape=arrow;" edge="1" parent="1" source="uGrwg-TMTBSAi2oEGAcf-8" target="Wn0DzkVXAHdK4aTszHG_-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="610" y="886.65" as="sourcePoint" />
             <mxPoint x="882" y="649.65" as="targetPoint" />

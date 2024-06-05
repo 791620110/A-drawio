@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T07:35:27.495Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="GxUNnBvolqd1ZFnnjqxp" version="24.4.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-06-05T07:38:21.099Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="r8FQ2jWyK1NFnVk5tJL-" version="24.4.13" type="github" pages="5">
   <diagram name="block_电源整体" id="scZbwYnjEaHizTnODgxV">
-    <mxGraphModel dx="794" dy="394" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="454" dy="225" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dfYiGVlHExvWK6K35Ht9-0" />
         <mxCell id="dfYiGVlHExvWK6K35Ht9-1" parent="dfYiGVlHExvWK6K35Ht9-0" />
@@ -16,7 +16,7 @@
         <mxCell id="dfYiGVlHExvWK6K35Ht9-5" value="Car power&lt;br&gt;policy daemon" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
           <mxGeometry x="478" y="502" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dfYiGVlHExvWK6K35Ht9-7" value="CarPower&lt;br&gt;Manager(Java/C++)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFFFFF;fontColor=#330000;strokeColor=#2D7600;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
+        <mxCell id="dfYiGVlHExvWK6K35Ht9-7" value="CarPower&lt;br&gt;Manager(Java/C++)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFFFFF;fontColor=#330000;strokeColor=#330000;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
           <mxGeometry x="278" y="121" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dfYiGVlHExvWK6K35Ht9-8" value="CarProperty&lt;br&gt;Manager" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
@@ -55,7 +55,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dfYiGVlHExvWK6K35Ht9-18" value="Synchronization" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#808080;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
-          <mxGeometry x="428" y="433" width="80" height="26" as="geometry" />
+          <mxGeometry x="469" y="432" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dfYiGVlHExvWK6K35Ht9-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;dashed=1;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
           <mxGeometry x="16" y="453" width="655" height="8" as="geometry" />
@@ -140,19 +140,19 @@
         <mxCell id="3WtkxjD41EtSvu9YMNgy-22" value="sys/power/state" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
           <mxGeometry x="94" y="609" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3WtkxjD41EtSvu9YMNgy-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dfYiGVlHExvWK6K35Ht9-1" source="dfYiGVlHExvWK6K35Ht9-3" target="3WtkxjD41EtSvu9YMNgy-22">
+        <mxCell id="3WtkxjD41EtSvu9YMNgy-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dfYiGVlHExvWK6K35Ht9-1" source="dfYiGVlHExvWK6K35Ht9-3" target="3WtkxjD41EtSvu9YMNgy-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-63" y="486" as="sourcePoint" />
             <mxPoint x="-13" y="436" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="221" y="363" />
-              <mxPoint x="221" y="527" />
+              <mxPoint x="313" y="433" />
+              <mxPoint x="154" y="433" />
               <mxPoint x="154" y="527" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="3WtkxjD41EtSvu9YMNgy-25" value="SystemSuspend" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#808080;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
-          <mxGeometry x="130" y="427" width="80" height="26" as="geometry" />
+          <mxGeometry x="162" y="432" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3WtkxjD41EtSvu9YMNgy-26" value="&lt;font&gt;virtio IO&lt;/font&gt;" style="text;align=right;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#808080;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
           <mxGeometry x="223" y="671" width="80" height="26" as="geometry" />

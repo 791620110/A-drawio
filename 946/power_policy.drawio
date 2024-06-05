@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T02:45:24.969Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:102.0)" etag="nsRU1wXDX4bW-wfxbnT4" version="24.4.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-05T03:23:39.737Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:102.0)" etag="DawU-Yc3TfGXtJ_BOUS8" version="24.4.13" type="github" pages="4">
   <diagram id="GSO0hhB5HU-CJFFYYbM_" name="block_电源政策">
     <mxGraphModel dx="911" dy="594" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,7 +97,7 @@
         <mxCell id="y9bG7x7FlNeVhM2Q35I2-21" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="726" y="221" width="89" height="196" as="geometry" />
         </mxCell>
-        <mxCell id="y9bG7x7FlNeVhM2Q35I2-22" value="register power policy" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fillColor=#fad9d5;strokeColor=#ae4132;" parent="y9bG7x7FlNeVhM2Q35I2-21" edge="1">
+        <mxCell id="y9bG7x7FlNeVhM2Q35I2-22" value="listen power policy" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fillColor=#fad9d5;strokeColor=#ae4132;" parent="y9bG7x7FlNeVhM2Q35I2-21" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint as="sourcePoint" />
             <mxPoint x="89" as="targetPoint" />

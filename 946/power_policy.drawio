@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T07:54:02.200Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="treclj71LIsxZr61983i" version="24.4.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-05T07:55:30.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="JTLNMt3NanuIhgN2-MEb" version="24.4.13" type="github" pages="4">
   <diagram name="block_电源整体" id="scZbwYnjEaHizTnODgxV">
-    <mxGraphModel dx="548" dy="272" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="529" dy="263" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dfYiGVlHExvWK6K35Ht9-0" />
         <mxCell id="dfYiGVlHExvWK6K35Ht9-1" parent="dfYiGVlHExvWK6K35Ht9-0" />
@@ -14,7 +14,7 @@
           <mxGeometry x="325" y="426" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dfYiGVlHExvWK6K35Ht9-5" value="Car power&lt;br&gt;policy daemon" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
-          <mxGeometry x="525" y="426" width="140" height="60" as="geometry" />
+          <mxGeometry x="518" y="426" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dfYiGVlHExvWK6K35Ht9-7" value="CarPower&lt;br&gt;Manager(Java/C++)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFFFFF;fontColor=#330000;strokeColor=#330000;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
           <mxGeometry x="325" y="61" width="140" height="60" as="geometry" />
@@ -38,13 +38,13 @@
             <mxPoint x="475" y="325" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dfYiGVlHExvWK6K35Ht9-12" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.567;exitY=-0.011;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#ffcc99;strokeColor=#330000;" edge="1" parent="dfYiGVlHExvWK6K35Ht9-1" source="dfYiGVlHExvWK6K35Ht9-5" target="dfYiGVlHExvWK6K35Ht9-3">
+        <mxCell id="dfYiGVlHExvWK6K35Ht9-12" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;fillColor=#ffcc99;strokeColor=#330000;" edge="1" parent="dfYiGVlHExvWK6K35Ht9-1" source="dfYiGVlHExvWK6K35Ht9-5" target="dfYiGVlHExvWK6K35Ht9-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="305" y="225" as="sourcePoint" />
             <mxPoint x="465" y="225" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="604" y="355" />
-              <mxPoint x="435" y="355" />
+              <mxPoint x="586" y="355" />
+              <mxPoint x="436" y="355" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -59,7 +59,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dfYiGVlHExvWK6K35Ht9-18" value="Synchronization" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#808080;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
-          <mxGeometry x="516" y="356" width="80" height="26" as="geometry" />
+          <mxGeometry x="496" y="356" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dfYiGVlHExvWK6K35Ht9-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;dashed=1;" vertex="1" parent="dfYiGVlHExvWK6K35Ht9-1">
           <mxGeometry x="63" y="377" width="655" height="8" as="geometry" />

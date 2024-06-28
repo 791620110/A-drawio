@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-28T03:33:18.961Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="2OxTIyDOg-nwG5wEC7jB" version="24.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-28T03:52:41.505Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="92HdjJYyzKGtxjyY3bLh" version="24.6.3" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1223" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,8 +80,8 @@
             <mxPoint x="490" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WFxyvhZNhA9_8U9yuTwu-11" value="Android同步AVAS设置（开关、声音类型）" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="497" y="240" width="80" height="26" as="geometry" />
+        <mxCell id="WFxyvhZNhA9_8U9yuTwu-11" value="&lt;div align=&quot;left&quot;&gt;Android同步AVAS设置&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;①AVAS开关信号&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;②AVAS声音类型）&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="442" y="230" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WFxyvhZNhA9_8U9yuTwu-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;strokeWidth=2;strokeColor=#FF0000;" edge="1" parent="1" source="WFxyvhZNhA9_8U9yuTwu-8" target="a4U3a6l-AfDalDt9Hswg-2">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -106,6 +106,18 @@
             <mxPoint x="650" y="97" as="sourcePoint" />
             <mxPoint x="746" y="97" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="WFxyvhZNhA9_8U9yuTwu-17" value="MCU" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="530" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WFxyvhZNhA9_8U9yuTwu-18" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;" edge="1" parent="1" source="WFxyvhZNhA9_8U9yuTwu-17" target="WFxyvhZNhA9_8U9yuTwu-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="550" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFxyvhZNhA9_8U9yuTwu-19" value="①内燃机状态信号&lt;br&gt;②挡位信号&lt;br&gt;③车速状态信号&lt;br&gt;④usmode信号&lt;br&gt;⑤carnide信号&lt;br&gt;⑥油门信号&lt;br&gt;⑦刹车信号" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="460" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

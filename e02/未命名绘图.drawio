@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-28T06:00:13.526Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Oyyd5qPYZQX2RdBVPQME" version="24.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-28T06:41:06.346Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="ySWkcOa4ACARexpAH-LR" version="24.6.3" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1223" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IZKv2v00aQFO20r3U_Zz" name="第 2 页">
-    <mxGraphModel dx="934" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,24 +89,6 @@
             <mxPoint x="389" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WFxyvhZNhA9_8U9yuTwu-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;strokeWidth=2;strokeColor=#FF0000;" edge="1" parent="1" target="WFxyvhZNhA9_8U9yuTwu-14">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="549" y="70" as="sourcePoint" />
-            <mxPoint x="645" y="70" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WFxyvhZNhA9_8U9yuTwu-14" value="控制信号" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="605" y="57" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WFxyvhZNhA9_8U9yuTwu-15" value="音频信号" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="605" y="84" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WFxyvhZNhA9_8U9yuTwu-16" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;strokeWidth=2;strokeColor=#0000FF;" edge="1" target="WFxyvhZNhA9_8U9yuTwu-15" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="549" y="97" as="sourcePoint" />
-            <mxPoint x="645" y="97" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="WFxyvhZNhA9_8U9yuTwu-17" value="MCU" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="264" y="542" width="100" height="50" as="geometry" />
         </mxCell>
@@ -144,6 +126,27 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="510" y="420" as="sourcePoint" />
             <mxPoint x="670" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFxyvhZNhA9_8U9yuTwu-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="650" y="120" width="136" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="WFxyvhZNhA9_8U9yuTwu-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;strokeWidth=2;strokeColor=#FF0000;" edge="1" parent="WFxyvhZNhA9_8U9yuTwu-26" target="WFxyvhZNhA9_8U9yuTwu-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint y="13" as="sourcePoint" />
+            <mxPoint x="96" y="13" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFxyvhZNhA9_8U9yuTwu-14" value="控制信号" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="WFxyvhZNhA9_8U9yuTwu-26">
+          <mxGeometry x="56" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WFxyvhZNhA9_8U9yuTwu-15" value="音频信号" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="WFxyvhZNhA9_8U9yuTwu-26">
+          <mxGeometry x="56" y="27" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WFxyvhZNhA9_8U9yuTwu-16" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;strokeWidth=2;strokeColor=#0000FF;" edge="1" target="WFxyvhZNhA9_8U9yuTwu-15" parent="WFxyvhZNhA9_8U9yuTwu-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint y="40" as="sourcePoint" />
+            <mxPoint x="96" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T10:03:24.333Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Q-b3he-Ef0aqlwqg6NCa" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-07-04T06:39:40.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="cuZ-NXZRpHThWtra_7fx" version="24.6.4" type="github" pages="5">
   <diagram name="block_电源整体" id="scZbwYnjEaHizTnODgxV">
     <mxGraphModel dx="633" dy="328" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,7 +186,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="EA8ShP7jqK84DFbrow7X" name="seq_coldStart_模块控制">
+  <diagram id="EA8ShP7jqK84DFbrow7X" name="seq_coldStart_模块控制_ALL">
     <mxGraphModel dx="794" dy="394" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />

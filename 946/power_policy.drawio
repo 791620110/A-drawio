@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T02:19:36.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="gWshgm40oRCbMWNXgLW2" version="24.6.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-07-08T02:20:35.546Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="6os6IBbZRnjrnWI4wO-V" version="24.6.4" type="github" pages="6">
   <diagram name="block_电源整体" id="scZbwYnjEaHizTnODgxV">
     <mxGraphModel dx="633" dy="328" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -197,10 +197,10 @@
           </mxCell>
         </UserObject>
         <mxCell id="4Hqnp9DoHgLRdOo2lUl8-1" value="initPolicies&lt;br&gt;//1.普通电源策略初始化&lt;br&gt;mRegisteredPowerPolicies = new ArrayMap&amp;lt;String, CarPowerPolicy&amp;gt;();&lt;br&gt;mRegisteredPowerPolicies.put(POWER_POLICY_ID_ALL_ON,*);&lt;br&gt;mRegisteredPowerPolicies.put(POWER_POLICY_ID_INITIAL_ON,*);&lt;br&gt;//2.电源策略组初始化&lt;br&gt;mPolicyGroups = new ArrayMap&amp;lt;String, SparseArray&amp;lt;String&amp;gt;&amp;gt;();&lt;br&gt;//3.抢占式电源策略初始化&lt;br&gt;mPreemptivePowerPolicies = new ArrayMap&amp;lt;String, CarPowerPolicy&amp;gt;();&lt;br&gt;mPreemptivePowerPolicies.put(POWER_POLICY_ID_NO_USER_INTERACTION,*);&lt;br&gt;mPreemptivePowerPolicies.put(POWER_POLICY_ID_SUSPEND_TO_RAM,*);" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="975" y="119" width="80" height="26" as="geometry" />
+          <mxGeometry x="1155" y="119" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="4Hqnp9DoHgLRdOo2lUl8-2" value="readPowerPolicyFromXml&lt;br&gt;//1.普通电源策略数组被新解析的数组替换&lt;br&gt;mRegisteredPowerPolicies = parsePolicies();&lt;br&gt;//2.电源策略组赋值&lt;br&gt;mPolicyGroups = parsePolicyGroups();&lt;br&gt;//3.对mPreemptivePowerPolicies的POWER_POLICY_ID_NO_USER_INTERACTION key&lt;br&gt;覆盖解析到的xml数据（Components级别的覆盖）&lt;br&gt;reconstructSystemPowerPolicy(parseSystemPolicyOverrides());" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="973" y="298" width="80" height="26" as="geometry" />
+          <mxGeometry x="1153" y="298" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-30T06:37:06.957Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="V4o9K3UVlETZ_KgSUG1J" version="24.7.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-07-30T07:49:39.955Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="qoEYwMn9dcDcThEGX9zc" version="24.7.0" type="github" pages="9">
   <diagram name="block_电源整体" id="scZbwYnjEaHizTnODgxV">
     <mxGraphModel dx="633" dy="328" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -346,7 +346,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="h7uv81xIhcB42S7jtqTZ" name="seq_电源政策加载">
-    <mxGraphModel dx="911" dy="594" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="394" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

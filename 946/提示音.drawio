@@ -31,10 +31,10 @@
         </mxCell>
         <mxCell id="SMfCLs3vjRdmeznLQC95-16" value="座椅调节" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
           <mxGeometry x="170" y="180" width="90" height="30" as="geometry">
-            <mxRectangle x="170" y="230" width="140" height="90" as="alternateBounds" />
+            <mxRectangle x="242.5" y="100" width="140" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SMfCLs3vjRdmeznLQC95-17" value="座椅调节提示" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="SMfCLs3vjRdmeznLQC95-16">
+        <mxCell id="SMfCLs3vjRdmeznLQC95-17" value="座椅调节/hud/方向盘提示" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="SMfCLs3vjRdmeznLQC95-16">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SMfCLs3vjRdmeznLQC95-18" value="保存" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="SMfCLs3vjRdmeznLQC95-16">
@@ -53,6 +53,9 @@
             <mxRectangle x="400" y="280" width="140" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="SMfCLs3vjRdmeznLQC95-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SMfCLs3vjRdmeznLQC95-28" target="SMfCLs3vjRdmeznLQC95-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SMfCLs3vjRdmeznLQC95-28" value="audiohal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="165" width="120" height="60" as="geometry" />
         </mxCell>
@@ -66,10 +69,13 @@
           <mxGeometry x="262.5" y="60" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SMfCLs3vjRdmeznLQC95-32" value="公放" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="115" width="140" height="150" as="geometry" />
+          <mxGeometry x="640" y="120" width="140" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="SMfCLs3vjRdmeznLQC95-33" value="source:wav&lt;br&gt;volume:n%" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="160" width="60" height="30" as="geometry" />
+        <mxCell id="SMfCLs3vjRdmeznLQC95-33" value="&lt;div&gt;source:.wav(xdb)&lt;br&gt;&lt;/div&gt;volume:n%" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMfCLs3vjRdmeznLQC95-35" value="pcm" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="165" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
